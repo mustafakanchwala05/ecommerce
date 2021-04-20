@@ -1,0 +1,143 @@
+.Siteheader{
+  .navbar{
+    background: #fff;
+    border-bottom: 1px solid var(--DividerBorder);
+    .allMenu{
+      position: relative;
+      background: none;
+      border: none;
+      padding: 0;
+      width: auto;
+      font-size: 24px;
+      margin-right: 30px;
+      padding-right: 30px;
+      color: #3e425a;
+      &:focus{
+        box-shadow: none;
+      }
+      &::after{
+        content: '';
+        background: var(--DividerBorder);
+        height: 55px;
+        width: 1px;
+        display: block;
+        position: absolute;
+        top: -10px;
+        right: 0;
+      } 
+    }
+    .nav-link{
+      padding: 0 15px;
+      color: var(--bodyTxt);
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .signIn{
+      padding: 3px 18px;
+      border-radius: 16px;
+      color: var(--bodyTxt);
+      background: var(--white);
+      border: 2px solid #e3e8f0;
+      font-size: 14px;
+      // margin-left: 10px;
+    }
+    .cartCount{
+      color: var(--bodyTxt);
+      .navbar-text{
+          background: var(--lightGrey);
+          color: var(--bodyTxt);
+          border-radius: 5rem;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          padding: 2px 10px;
+      }
+    }
+    .navbar-nav{
+      align-items: center;
+    }
+  }
+  .subNavbar{
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    .container{
+      align-items: center;
+    }
+    .list-group{
+      width: 100%;
+      .list-group-item{
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: var(--bodyGreyTxt);
+        border: none;
+        padding: 0 15px;
+        cursor: pointer;
+        &:last-child{
+          margin-right: 0;
+          margin-left: auto;
+        }
+        &.active{
+          color: var(--bodyTxt);
+          background: transparent;
+          font-weight: 500;
+        }
+      }
+    }
+    form{
+      position: relative;
+      &::before{
+        content: '';
+        background: var(--DividerBorder);
+        height: 55px;
+        width: 1px;
+        display: block;
+        position: absolute;
+        top: -10px;
+      }  
+      &::after{
+        content: '';
+        background: var(--DividerBorder);
+        height: 55px;
+        width: 1px;
+        display: block;
+        position: absolute;
+        top: -10px;
+        right: 0;
+      } 
+      .input-group{
+        .input-group-text{
+          background: transparent;
+          border: none;
+        }
+        .form-control{
+          border: none;
+          padding: 0;
+          font-size: 14px;
+          &:focus{
+            outline: none;
+            box-shadow: none;
+          }
+        }
+        input{        
+          &::-webkit-input-placeholder { /* Edge */
+          font-size: 14px;
+          color: var(--bodyMedLightGrey);
+          }
+          
+          &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+          font-size: 14px;
+          color: var(--bodyMedLightGrey);
+          }
+          
+          &::placeholder {
+          font-size: 14px;
+          color: var(--bodyMedLightGrey);
+          }
+        }
+      }
+    }
+  }
+}

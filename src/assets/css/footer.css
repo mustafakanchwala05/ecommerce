@@ -1,0 +1,42 @@
+.siteFooter {
+  background: #212327;
+}
+
+.siteFooter .navbar {
+  background: #212327;
+  border: none;
+}
+
+.siteFooter .navbar .nav-link {
+  color: var(--white);
+}
+
+.siteFooter .navbar .nav-link:hover {
+  color: #6c757d;
+}
+
+.siteFooter .navbar .container {
+  padding: 30px 15px;
+  border-bottom: 1px solid #495057;
+}
+
+.siteFooter .termsBox .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0 30px;
+}
+
+.siteFooter .termsBox .container p {
+  color: #6c757d;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.siteFooter .termsBox .container p:first-child {
+  width: 50%;
+  text-align: left;
+  font-style: italic;
+}
+/*# sourceMappingURL=footer.css.map */

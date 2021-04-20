@@ -1,0 +1,70 @@
+.heroSlider{
+  .heroSlider-item{ 
+    text-align: left;
+    img{
+      position: absolute;
+      z-index: 1;
+      width: 100vw;
+    }
+    .container{
+      position: relative;
+      z-index: 2;
+      padding: 100px 15px;
+    }
+     h3{
+      font-size: 42px;
+      color: var(--white);
+      font-weight: 900;
+    }
+    p{
+      font-size: 16px;
+      color: var(--white);
+      padding: 10px 0 50px;
+      width: 50%;
+    }
+    .btn{
+      border-radius: 21px;
+      box-shadow: 0px 0px 20px rgba(168,173,187,0.32);
+      background-color: var(--primaryButton); 
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 12px 40px;
+    }
+  }
+  .slick-next {
+    right: 5%;
+    &::before{
+      background: url(../img/next-arrow.png) no-repeat center;
+      content: '';
+      height: 42px;
+      width: 42px;
+      display: block;
+      background-size: 100%;
+    }
+  }
+  .slick-dots{
+    bottom: 25px;
+    li{
+      width: 10px;
+      height: 10px;      
+      button{
+        width: 10px;
+        height: 10px;
+        padding: 0;
+        border: 2px solid #fff;
+        opacity: 0.5;
+        border-radius: 50%;
+        &::before{
+          display: none;
+        }
+      }
+      &.slick-active{
+        button{
+          background: var(--white);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.siteFooter{
+  background: #212327;
+  .navbar{
+    background: #212327;
+    border: none;
+    .nav-link{
+      color: var(--white);      
+      &:hover{
+        color: #6c757d;
+      }
+    }
+    .container{
+      padding: 30px 15px;
+      border-bottom:1px solid #495057 ;
+    }
+  }
+  .termsBox{
+    .container{
+      display: flex;
+      padding: 20px 0 30px;
+      p{
+        color: #6c757d;
+        font-size: 11px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        &:first-child{
+          width: 50%;
+          text-align: left;
+          font-style: italic;
+          
+        }
+      }
+    }
+  }
+}

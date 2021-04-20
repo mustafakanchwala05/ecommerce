@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f06c016f.chunk.css",
+    "main.js": "/static/js/main.1107d45e.chunk.js",
+    "main.js.map": "/static/js/main.1107d45e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2a07a76c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2a07a76c.js.map",
+    "static/css/2.f9e6fcbc.chunk.css": "/static/css/2.f9e6fcbc.chunk.css",
+    "static/js/2.a3044aba.chunk.js": "/static/js/2.a3044aba.chunk.js",
+    "static/js/2.a3044aba.chunk.js.map": "/static/js/2.a3044aba.chunk.js.map",
+    "static/js/3.98bfbdce.chunk.js": "/static/js/3.98bfbdce.chunk.js",
+    "static/js/3.98bfbdce.chunk.js.map": "/static/js/3.98bfbdce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.f9e6fcbc.chunk.css.map": "/static/css/2.f9e6fcbc.chunk.css.map",
+    "static/css/main.f06c016f.chunk.css.map": "/static/css/main.f06c016f.chunk.css.map",
+    "static/js/2.a3044aba.chunk.js.LICENSE.txt": "/static/js/2.a3044aba.chunk.js.LICENSE.txt",
+    "static/media/JBL.297c5943.png": "/static/media/JBL.297c5943.png",
+    "static/media/Zendure-4-Port.dc205b57.png": "/static/media/Zendure-4-Port.dc205b57.png",
+    "static/media/appleTV.36329f2e.png": "/static/media/appleTV.36329f2e.png",
+    "static/media/bestSaleProduct-1.dd14895c.png": "/static/media/bestSaleProduct-1.dd14895c.png",
+    "static/media/bestSaleProduct-2.d81edb03.png": "/static/media/bestSaleProduct-2.d81edb03.png",
+    "static/media/bestSaleProduct-3.0b6860f6.png": "/static/media/bestSaleProduct-3.0b6860f6.png",
+    "static/media/bestSaleProduct-4.782bdba5.png": "/static/media/bestSaleProduct-4.782bdba5.png",
+    "static/media/device.11b5640a.png": "/static/media/device.11b5640a.png",
+    "static/media/App.css": "/static/media/slick.c94f7671.ttf",
+    "static/media/slide-1.427d14ec.png": "/static/media/slide-1.427d14ec.png",
+    "static/media/watch.7db2b756.png": "/static/media/watch.7db2b756.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a07a76c.js",
+    "static/css/2.f9e6fcbc.chunk.css",
+    "static/js/2.a3044aba.chunk.js",
+    "static/css/main.f06c016f.chunk.css",
+    "static/js/main.1107d45e.chunk.js"
+  ]
+}
